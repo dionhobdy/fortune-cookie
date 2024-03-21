@@ -1,0 +1,32 @@
+Alarm Clock
+Amazon Product Availability Checker
+Auto Clicker
+Auto-Login Bot
+Business Card Generator
+Chat Bot
+Credit Card Fraud Detector
+Drawing App
+Emoji Translator
+Employee MAnagement System
+File Organizer
+File Renaming Tool
+File Sharing App
+Google Drive Clone
+Hotel Management System
+Instagram Bot
+Meme Generator
+ML Movie Recommendation Engine
+MP3 Player
+Password Manager
+React Photo Gallery
+Site Connectivity Checker
+Sudoku Solver
+Telegram Bot
+Text-Based Adventure Game
+Twitter Bot
+Twitter Sentiment Analyzer
+Typing Practice
+URL Shortener Tool
+Web Scraper
+WhatsApp Bot
+Wildfire Tracker

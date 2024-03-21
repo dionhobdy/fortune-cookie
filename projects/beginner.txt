@@ -1,0 +1,28 @@
+10 User Interfaces
+2048 Game
+21 Number Game
+Attendance Tracker
+Calculator
+Chess
+Countdown Timer
+Desktop Notifier
+Flames Game
+Fun Fact Generator
+Desktop Live Weather Notifier
+Hangman
+Higher-Lower Game
+Identical PDF Checker
+Mad Libs
+Mastermind Game
+Number Guessing Game
+Password Generator
+Payment Receipt Generator
+PDF to Audiobook Reader
+Pokemon Training Game
+Quiz Application
+Recipe App
+Rock Paper Scissors
+Tic Tac Toe
+Weather App
+Weight Conversion Tool
+Word Guessing Game

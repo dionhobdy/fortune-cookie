@@ -1,0 +1,16 @@
+Booking and Reservation System
+Content Managment System
+COVID-19 Tracker
+Crypto - Stock Trading App
+Data Visualization Dashboard
+Discord Clone
+E-Commerce Platform
+Elevator
+Email Client
+Fast Food Simulator
+Online Learning 
+RESTFul API
+Shell Game
+Social Networking Site
+Web Browser
+Web Server
