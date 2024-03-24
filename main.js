@@ -35,9 +35,10 @@ let menu = () => {
             name: 'value',
             message: 'select difficulty',
             choices: [
-                { title:'Beginner'},
-                { title: 'Intermediate'},
-                { title: 'Advance'}
+                { title:'Beginner' },
+                { title: 'Intermediate' },
+                { title: 'Advance' },
+                { title: 'All', description: 'Displays one of each difficulty' }
             ],
             initial: 0
         });
@@ -50,11 +51,17 @@ let menu = () => {
             intermediate(); 
             fortune();
             lotto();
-        } else { 
+        } else if (response.value == 2) { 
             advance(); 
             fortune();
             lotto();
-        } 
+        } else {
+            beginner();
+            intermediate();
+            advance();
+            fortune();
+            lotto();
+        }
     })();
 }
 
