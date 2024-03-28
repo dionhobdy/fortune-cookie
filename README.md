@@ -7,12 +7,12 @@ The idea behind Fortune Cookie started small. The goal was to simulate a fortune
 
 ## F E A T U R E S
 
-As discussed in the concept, the features include 30+ coding projects. With that is over 300 fortunes to help lift your spirits and a lotto number generator. More coding projects and features will be included over time.
+As discussed in the concept, the features include 100+ coding projects. With that is over 300 fortunes to help lift your spirits and a lotto number generator. More coding projects and features will be included over time.
 
 ## N E W F E A T U R E
 
-###All Difficulty - 
-The All difficulty is a simple feature that enables the user freedom of choice. This difficulty will generate one coding project from each difficulty. 
+All Difficulty - 
+The All difficulty is a simple feature that enables the user freedom of choice. This difficulty will generate one coding project from each difficulty.
 
 ![FORTUNE COOKIE fortune](https://i.imgur.com/vdUL7ke.png)
 
