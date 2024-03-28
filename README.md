@@ -1,4 +1,4 @@
-![FORTUNE COOKIE Menu](https://i.imgur.com/m1NHcXS.png)
+![FORTUNE COOKIE Menu](https://i.imgur.com/ADoxrGk.png)
 # NodeJS powered coding project randomizer in your command line
 
 ## C O N C E P T
@@ -11,10 +11,10 @@ As discussed in the concept, the features include 100+ coding projects. With tha
 
 ## N E W F E A T U R E
 
-### All Difficulty
-The All difficulty is a simple feature that enables the user freedom of choice. This difficulty will generate one coding project from each difficulty.
+### Implement (Released: 03/28/2024)
+Implement (once called Language Randomizer) is a fun new dimension to Fortune Cookie. When you generate a random coding project, you will get a challenge to implement a language or framework into the project. There are 30+ languages and frameworks. More will be added over time.
 
-![FORTUNE COOKIE fortune](https://i.imgur.com/vdUL7ke.png)
+![FORTUNE COOKIE fortune](https://i.imgur.com/etzQyB0.png)
 
 ## G O A L S
 
@@ -23,9 +23,6 @@ The incusion of a any difficulty that combines all three difficulties together w
 
 ### Reroll
 I'd imagine that not all developers would be happy with their result. A reroll feature will come in handy within these instances.
-
-### Language Randomizer (Release Date: 03/28/2024)
-~~Why not also include a programming language randomizer? The feature can add a whole new dimension of challenge and encourage developers to explore other programming languages.~~
 
 ### Project Tracking
 A project tracking feature will help users know which projects they have already worked on and help FORTUNE COOKIE not suggest projects that's already been worked on. 
