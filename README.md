@@ -1,4 +1,4 @@
-![FORTUNE COOKIE Menu](https://i.imgur.com/ADoxrGk.png)
+![FORTUNE COOKIE Menu](https://i.imgur.com/gLIfNPR.png)
 # NodeJS powered coding project randomizer in your command line
 
 ## C O N C E P T
