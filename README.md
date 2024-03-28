@@ -11,7 +11,7 @@ As discussed in the concept, the features include 100+ coding projects. With tha
 
 ## N E W F E A T U R E
 
-All Difficulty - 
+### All Difficulty
 The All difficulty is a simple feature that enables the user freedom of choice. This difficulty will generate one coding project from each difficulty.
 
 ![FORTUNE COOKIE fortune](https://i.imgur.com/vdUL7ke.png)
