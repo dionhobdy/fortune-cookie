@@ -24,8 +24,8 @@ The incusion of a any difficulty that combines all three difficulties together w
 ### Reroll
 I'd imagine that not all developers would be happy with their result. A reroll feature will come in handy within these instances.
 
-~~ ### Language Randomizer
-Why not also include a programming language randomizer? The feature can add a whole new dimension of challenge and encourage developers to explore other programming languages. ~~
+~~### Language Randomizer
+Why not also include a programming language randomizer? The feature can add a whole new dimension of challenge and encourage developers to explore other programming languages.~~
 
 ### Tutorial Links
 I think the feature to include tutorial links to the projects that FORTUNE COOKIE suggests can help the lazy developer get out of a rut when needed.
