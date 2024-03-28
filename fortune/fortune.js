@@ -1,6 +1,6 @@
 'use strict';
 
-const { fgColorHex } = require('terminal-text-color'); // node package calls
+const { fgColorHex } = require('terminal-text-color');
 const fs = require('fs');
 
 let fortune = () => {

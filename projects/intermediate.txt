@@ -1,21 +1,27 @@
+Airbnb Clone
 Alarm Clock
 Amazon Product Availability Checker
 Auto Clicker
 Auto-Login Bot
 Business Card Generator
+Chat App
 Chat Bot
 Credit Card Fraud Detector
 Drawing App
+Election Map
 Emoji Translator
-Employee MAnagement System
+Employee Management System
 File Organizer
 File Renaming Tool
 File Sharing App
+Github Jobs App
 Google Drive Clone
 Hotel Management System
 Instagram Bot
+Interactive Movie Database App
+Login Authentication
 Meme Generator
-ML Movie Recommendation Engine
+Movie Recommendation Engine
 MP3 Player
 Password Manager
 React Photo Gallery
@@ -29,4 +35,6 @@ Typing Practice
 URL Shortener Tool
 Web Scraper
 WhatsApp Bot
+WhatsApp Birthday Bot
 Wildfire Tracker
+Word Guesser
