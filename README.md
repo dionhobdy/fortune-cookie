@@ -24,7 +24,7 @@ The incusion of a any difficulty that combines all three difficulties together w
 ### Reroll
 I'd imagine that not all developers would be happy with their result. A reroll feature will come in handy within these instances.
 
-### Language Randomizer (Release: 03/28/2024)
+### Language Randomizer (Release Date: 03/28/2024)
 ~~Why not also include a programming language randomizer? The feature can add a whole new dimension of challenge and encourage developers to explore other programming languages.~~
 
 
