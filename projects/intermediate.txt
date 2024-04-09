@@ -5,15 +5,17 @@ Auto Clicker
 Auto-Login Bot
 Business Card Generator
 Chat App
-Chat Bot
+Chatbot
 Credit Card Fraud Detector
 Drawing App
 Election Map
 Emoji Translator
 Employee Management System
+Expense-sharing App
 File Organizer
 File Renaming Tool
 File Sharing App
+Fitness Tracker
 Github Jobs App
 Google Drive Clone
 Hotel Management System
@@ -23,9 +25,18 @@ Login Authentication
 Meme Generator
 Movie Recommendation Engine
 MP3 Player
+Music Player
+Notes App
+Online Marketplace
 Password Manager
+Personal Assistant
+Personal Finance Tracker
+Recipe Generator
+Recreate Your Favorite Board Game
 React Photo Gallery
 Site Connectivity Checker
+Site Updated Notification System
+Social Media Anlytics
 Sudoku Solver
 Telegram Bot
 Text-Based Adventure Game
@@ -33,8 +44,10 @@ Twitter Bot
 Twitter Sentiment Analyzer
 Typing Practice
 URL Shortener Tool
+Web Browser
 Web Scraper
 WhatsApp Bot
 WhatsApp Birthday Bot
+Wikipedia Explorer
 Wildfire Tracker
 Word Guesser

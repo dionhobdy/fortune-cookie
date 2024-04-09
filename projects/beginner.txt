@@ -4,40 +4,64 @@
 Address Book
 Attendance Tracker
 Automate Social Media Messages
+Bankig Application
+Budget Tracker
 Calculator
+Calendar
 Chess
 Clock
+Code Generator
 Contacts List
+Counter App
 Countdown Timer
 Currency Converter
 Desktop Notifier
+Dice Rolling Simulation
+Duplicate Text Checker
 Face Recognition App
+Fizz Buzz
 Flames Game
+Food Ordering App
 Fortune Cookie Clone
+Fortune Teller
 Fun Fact Generator
 Desktop Live Weather Notifier
 Drum Kit
-Hangman
+Hangman Game
 Higher-Lower Game
 Identical PDF Checker
 Mad Libs Generator
 Magic 8 Ball
 Mastermind Game
+Movie Recommender
 Multi-Page Responsive Website
 Number Guessing Game
+Odd or Even Game
+One-Page Website
+P2P File Sharing App
 Password Generator
 Payment Receipt Generator
 Personal Portfolio
+Personal Website
 PDF to Audiobook Reader
 Pokemon Training Game
+Pong
 Quiz Application
 Random Number Generator
 Recipe App
+Reverse a String
 Rock Paper Scissors
 Screen Recorder
+Snake Game
+Sorting MEthod
+Stock Ticker
+Sudoku Solver
 Survey Form
+Temperature/Measurement Converter
+Text-Based Adventure Game
 Tic Tac Toe
 To-Do List
+URL Shortener
 Voice Recorder
 Weather App
 Weight Conversion Tool

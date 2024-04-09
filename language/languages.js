@@ -13,7 +13,7 @@ let language = () => {
         var lines = data.trim().split('\n');
         const randomIndex = Math.floor(Math.random() * lines.length);
     
-        console.log(fgColorHex('E1E1DD'), 'incorporate - ' + fgColorHex('E1E1DD'), lines[randomIndex]);
+        console.log(fgColorHex('E1E1DD'), 'implement - ' + fgColorHex('E1E1DD'), lines[randomIndex]);
     });
 }
 
