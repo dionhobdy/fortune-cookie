@@ -14,6 +14,11 @@ As discussed in the concept, the features include 100+ coding projects. With tha
 ### Implement (Released: 03/28/2024)
 Implement (once called Language Randomizer) is a fun new dimension to Fortune Cookie. When you generate a random coding project, you will get a challenge to implement a language or framework into the project. There are 30+ languages and frameworks. More will be added over time.
 
+## N E W U P D A T E
+### 04/08/2024
+Corrected languages.js; changed "incorporate" to "implement" in order to properly match the feature name.
+Added new projects for Beginner, Intermediate and Advance. Project total: 206.
+
 ![FORTUNE COOKIE fortune](https://i.imgur.com/etzQyB0.png)
 
 ## G O A L S
