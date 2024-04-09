@@ -24,7 +24,7 @@ Added new projects for Beginner, Intermediate and Advance. Project total: 206.
 ## G O A L S
 
 ### Any Difficulty
-The incusion of a any difficulty that combines all three difficulties together would truly make FORTUNE COOKIE a wild card generator.
+The inclusion of a any difficulty that combines all three difficulties together would truly make FORTUNE COOKIE a wild card generator.
 
 ### Reroll
 I'd imagine that not all developers would be happy with their result. A reroll feature will come in handy within these instances.
