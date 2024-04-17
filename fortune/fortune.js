@@ -25,7 +25,7 @@ let lotto = () => {
     }
 
     arr.sort();
-    console.log(fgColorHex('E1E1DD'), 'lotto numbers - ' + fgColorHex('ED0A3F'), `${arr.join(' ').toString()}`);
+    console.log(fgColorHex('E1E1DD'), 'lucky numbers - ' + fgColorHex('ED0A3F'), `${arr.join(' ').toString()}`);
 }
 
 exports.fortune = fortune

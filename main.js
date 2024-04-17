@@ -52,11 +52,11 @@ let menu = () => {
         console.log(response);
 
         // create if/else chain as place holder for a for loop. if the prompt input's value equal to that of the function's value, call the corresponding function. 
-        if (response.value = 0) { 
+        if (response.value == 0) {
             beginner();
-        } else if (response.value = 1) { 
+        } else if (response.value == 1) { 
             intermediate(); 
-        } else if (response.value = 2) { 
+        } else if (response.value == 2) { 
             advance();
         } else {
             all();
