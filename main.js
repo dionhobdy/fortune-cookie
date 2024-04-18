@@ -2,6 +2,9 @@
 
 // local modules calls
 const { beginner, intermediate, advance, all } = require('./projects/projects');
+const { reRoll } = require('./misc features/reroll');
+const { language } = require('./language/languages');
+const { fortune, lotto } = require('./fortune/fortune');
 
 // npm module calls
 const prompts = require('prompts'); 
@@ -54,12 +57,44 @@ let menu = () => {
         // create if/else chain as place holder for a for loop. if the prompt input's value equal to that of the function's value, call the corresponding function. 
         if (response.value == 0) {
             beginner();
+            // return the language function.
+            language();
+            // return the fortune function.
+            fortune();
+            // return the lotto function.
+            lotto();
+            // call reRoll.
+            // reRoll();
         } else if (response.value == 1) { 
             intermediate(); 
+            // return the language function.
+            language();
+            // return the fortune function.
+            fortune();
+            // return the lotto function.
+            lotto();
+            // call reRoll.
+            // reRoll();
         } else if (response.value == 2) { 
             advance();
+            // return the language function.
+            language();
+            // return the fortune function.
+            fortune();
+            // return the lotto function.
+            lotto();
+            // call reRoll.
+            // reRoll();
         } else {
             all();
+            // return the language function.
+            language();
+            // return the fortune function.
+            fortune();
+            // return the lotto function.
+            lotto();
+            // call reRoll.
+            // reRoll();
         }
 
     })();
