@@ -53,7 +53,7 @@ Reverse a String
 Rock Paper Scissors
 Screen Recorder
 Snake Game
-Sorting MEthod
+Sorting Method
 Stock Ticker
 Sudoku Solver
 Survey Form

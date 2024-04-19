@@ -58,11 +58,24 @@ let advance = () => {
     });
 }
 
-// place holder for the all function. outputs one project from each difficulty, random language, random fortune and lotto numbers. 
+// all function. outputs one project from each difficulty, random language, random fortune and lotto numbers. 
 let all = () => {
     beginner();
     intermediate();
     advance();
+}
+
+let any = () => {
+    let rng = Math.floor(Math.random() * 3);
+    if (rng === 0) {
+        beginner();
+    } else if (rng === 1) {
+        intermediate();
+    } else if (rng === 2) {
+        advance();
+    } else {
+        all();
+    }
 }
 
 // export all functions for main.js to call
@@ -70,3 +83,4 @@ exports.beginner = beginner
 exports.intermediate = intermediate
 exports.advance = advance
 exports.all = all
+exports.any = any
