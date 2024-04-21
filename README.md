@@ -46,11 +46,11 @@ I'd imagine that not all developers would be happy with their result. A reroll f
 A project tracking feature will help users know which projects they have already worked on and help FORTUNE COOKIE not suggest projects that's already been worked on.
 
 ## S C R E E N S H O T S
-![FORTUNE COOKIE main menu](https://i.imgur.com/zaXjj67.png)
 ### FORTUNE COOKIE main menu
+![FORTUNE COOKIE main menu](https://i.imgur.com/zaXjj67.png)
 
-![FORTUNE COOKIE new Any function](https://i.imgur.com/FcPohCR.png)
 ### FORTUNE COOKIE new Any function
+![FORTUNE COOKIE new Any function](https://i.imgur.com/FcPohCR.png)
 
-![FORTUNE COOKIE All function](https://i.imgur.com/OEK9ofk.png)
 ### FORTUNE COOKIE All function
+![FORTUNE COOKIE All function](https://i.imgur.com/OEK9ofk.png)
