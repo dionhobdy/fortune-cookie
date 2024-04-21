@@ -60,11 +60,12 @@ let advance = () => {
 
 // all function. outputs one project from each difficulty, random language, random fortune and lotto numbers. 
 let all = () => {
-    beginner();
-    intermediate();
-    advance();
+    setTimeout(beginner, 50);
+    setTimeout(intermediate, 100);
+    setTimeout(advance, 150);
 }
 
+// any function. outputs a random challenge from any of the previous difficulties.
 let any = () => {
     let rng = Math.floor(Math.random() * 3);
     if (rng === 0) {
