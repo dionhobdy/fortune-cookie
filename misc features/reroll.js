@@ -2,10 +2,14 @@ const prompts = require('prompts');
 
 let reRoll = () => {
     const reRoll = prompts({
-        type: 'confirm',
-        name: 'reroll',
+        type: 'select',
+        name: 'value',
         message: 'Would you like to reroll?',
-        initial: false
+        choices: [
+            { title: 'yes' },
+            { title: 'no' }
+        ],
+        initial: 0
     });
 };
 

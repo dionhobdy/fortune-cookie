@@ -2,9 +2,6 @@
 
 // local modules calls
 const { beginner, intermediate, advance, all, any } = require('./projects/projects');
-const { reRoll } = require('./misc features/reroll');
-const { language } = require('./language/languages');
-const { fortune, lotto } = require('./fortune/fortune');
 
 // npm module calls
 const prompts = require('prompts'); 
@@ -31,15 +28,6 @@ console.log(fgColorHex('DAA233'), `
 `);
 console.log(fgColorHex('E1E1DD'), 'Coding Project Randomizer');
 console.log(' ');
-
-let featBundle = () => {
-    // return the language function.
-    language();
-    // return the fortune function.
-    setTimeout(fortune, 50);
-    // return the lotto function.
-    setTimeout(lotto, 100);
-}
 
 let x;
 let ifState0 = () => {
@@ -80,8 +68,6 @@ let menu = () => {
         // create a obj that holds a key/value pair for each option.
         x = response.value;
         ifState0();
-        setTimeout(featBundle, 250);
-        setTimeout(reRoll, 500);
     })();
 }
 
@@ -89,5 +75,3 @@ let menu = () => {
 
 // return menu function to initialize the application.
 menu();
-
-exports.ifState0 = ifState0

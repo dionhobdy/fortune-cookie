@@ -1,11 +1,41 @@
 'use strict';
 
+// local module calls
+const { reRoll } = require('../misc features/reroll');
+const { language } = require('../language/languages');
+const { fortune, lotto } = require('../fortune/fortune');
+
 // npm module calls
 const fs = require('fs');
 const { fgColorHex } = require('terminal-text-color');
 
+let y;
+let i = 0;
+
+function recurse() {
+    return y;
+}
+
+let featBundle = () => {
+    // return the language function.
+    setTimeout(language, 25);
+    // return the fortune function.
+    setTimeout(fortune, 50);
+    // return the lotto function.
+    setTimeout(lotto, 100);
+    // return the reRoll function.
+    setTimeout(reRoll, 125);
+    for (i; i < 1; i++) {
+        if (reRoll.value == 0) {
+            recurse();
+            i++;
+        } else { i++; }
+    }
+}
+
 // beginner function. outputs beginner project suggestion, random language, lotto numbers and fortune.
-let  beginner = () => {
+let  beginner = (y) => {
+    y = beginner();
     // iterate through ./projects/beginner.txt and output a random line.
     fs.readFile('./projects/beginner.txt', 'utf8', (err, data) => {
         // if there is error reading file output the error.
@@ -20,6 +50,8 @@ let  beginner = () => {
         // print the beginner project.
         console.log(fgColorHex('E1E1DD'), 'beginner project - ' + fgColorHex('E1E1DD'), lines[randomIndex]);
     });
+    featBundle();
+    return;
 }
 
 // intermediate function. outputs intermediate project suggestion, random language, lotto numbers and fortune.
@@ -38,6 +70,7 @@ let intermediate = () => {
         // print the intermediate project.
         console.log(fgColorHex('E1E1DD'), 'intermediate project - ' + fgColorHex('E1E1DD'), lines[randomIndex]);
     });
+    featBundle();
 }
 
 // advance function. outputs advance project suggestion, random language, lotto numbers and fortune.
@@ -56,6 +89,8 @@ let advance = () => {
         // print the advance project.
         console.log(fgColorHex('E1E1DD'), 'advance project - ' + fgColorHex('E1E1DD'), lines[randomIndex]);
     });
+
+    featBundle();
 }
 
 // all function. outputs one project from each difficulty, random language, random fortune and lotto numbers. 
@@ -72,10 +107,8 @@ let any = () => {
         beginner();
     } else if (rng === 1) {
         intermediate();
-    } else if (rng === 2) {
-        advance();
     } else {
-        all();
+        advance();
     }
 }
 
