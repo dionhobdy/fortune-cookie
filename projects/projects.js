@@ -9,13 +9,6 @@ const { fortune, lotto } = require('../fortune/fortune');
 const fs = require('fs');
 const { fgColorHex } = require('terminal-text-color');
 
-let y;
-let i = 0;
-
-function recurse() {
-    return y;
-}
-
 let featBundle = () => {
     // return the language function.
     setTimeout(language, 25);
@@ -25,17 +18,11 @@ let featBundle = () => {
     setTimeout(lotto, 100);
     // return the reRoll function.
     setTimeout(reRoll, 125);
-    for (i; i < 1; i++) {
-        if (reRoll.value == 0) {
-            recurse();
-            i++;
-        } else { i++; }
-    }
 }
 
 // beginner function. outputs beginner project suggestion, random language, lotto numbers and fortune.
 let  beginner = (y) => {
-    y = beginner();
+    reRoll.y = beginner();
     // iterate through ./projects/beginner.txt and output a random line.
     fs.readFile('./projects/beginner.txt', 'utf8', (err, data) => {
         // if there is error reading file output the error.
@@ -51,7 +38,6 @@ let  beginner = (y) => {
         console.log(fgColorHex('E1E1DD'), 'beginner project - ' + fgColorHex('E1E1DD'), lines[randomIndex]);
     });
     featBundle();
-    return;
 }
 
 // intermediate function. outputs intermediate project suggestion, random language, lotto numbers and fortune.
