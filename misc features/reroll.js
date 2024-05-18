@@ -1,6 +1,8 @@
+'use strict';
+
 const prompts = require('prompts'); 
 
-let reRoll = () => {
+let reRoll = () => { 
     const reRoll = prompts({
         type: 'select',
         name: 'value',
@@ -11,16 +13,12 @@ let reRoll = () => {
         ],
         initial: 0
     });
-    let y;
-    let i = 0;
 
-    function recurse() {
-        for (i; i < 1; i++) {
-            return y;
-        }
+    if (reRoll.value === 0) { 
+        return y;
+    } else {
+        return;
     }
-
-    if (reRoll.value === 0) { recurse(); }
 };
 
 exports.reRoll = reRoll

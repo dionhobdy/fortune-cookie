@@ -1,7 +1,7 @@
 'use strict';
 
 // local modules calls
-const { beginner, intermediate, advance, all, any } = require('./projects/projects');
+const { beginner, intermediate, advance, any } = require('./projects/projects');
 
 // npm module calls
 const prompts = require('prompts'); 
@@ -37,8 +37,6 @@ let ifState0 = () => {
         intermediate();
     } else if (x == 2) {
         advance();
-    } else if (x == 3) {
-        all();
     } else {
         any();
     }
@@ -57,7 +55,6 @@ let menu = () => {
                 { title:'Beginner' },
                 { title: 'Intermediate' },
                 { title: 'Advance' },
-                { title: 'All', description: 'Displays one of each difficulty' },
                 { title: 'Any', description: 'Chooses one challenge from any of the three difficulties'}
             ],
             // set the the cursor automatically to the first function. which is indexed at 0.

@@ -9,6 +9,7 @@ const { fortune, lotto } = require('../fortune/fortune');
 const fs = require('fs');
 const { fgColorHex } = require('terminal-text-color');
 
+
 let featBundle = () => {
     // return the language function.
     setTimeout(language, 25);
@@ -21,8 +22,8 @@ let featBundle = () => {
 }
 
 // beginner function. outputs beginner project suggestion, random language, lotto numbers and fortune.
-let  beginner = (y) => {
-    reRoll.y = beginner();
+let  beginner = () => {
+    let y = beginner();
     // iterate through ./projects/beginner.txt and output a random line.
     fs.readFile('./projects/beginner.txt', 'utf8', (err, data) => {
         // if there is error reading file output the error.
@@ -42,6 +43,7 @@ let  beginner = (y) => {
 
 // intermediate function. outputs intermediate project suggestion, random language, lotto numbers and fortune.
 let intermediate = () => {
+    let y = intermediate();
     // iterate through ./projects/intermediate.txt and output a random line.
     fs.readFile('./projects/intermediate.txt', 'utf8', (err, data) => {
         // if there is error reading file output the error.
@@ -61,6 +63,7 @@ let intermediate = () => {
 
 // advance function. outputs advance project suggestion, random language, lotto numbers and fortune.
 let advance = () => {
+    let y = advance();
     // iterate through ./projects/advance.txt and output a random line.
     fs.readFile('./projects/advance.txt', 'utf8', (err, data) => {
         // if there is error reading file output the error.
@@ -79,15 +82,9 @@ let advance = () => {
     featBundle();
 }
 
-// all function. outputs one project from each difficulty, random language, random fortune and lotto numbers. 
-let all = () => {
-    setTimeout(beginner, 50);
-    setTimeout(intermediate, 100);
-    setTimeout(advance, 150);
-}
-
 // any function. outputs a random challenge from any of the previous difficulties.
 let any = () => {
+    let y = any();
     let rng = Math.floor(Math.random() * 3);
     if (rng === 0) {
         beginner();
@@ -102,5 +99,4 @@ let any = () => {
 exports.beginner = beginner
 exports.intermediate = intermediate
 exports.advance = advance
-exports.all = all
 exports.any = any
