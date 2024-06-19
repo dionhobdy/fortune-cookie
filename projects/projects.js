@@ -1,5 +1,7 @@
 'use strict';
 
+let y;
+
 // local module calls
 const { reRoll } = require('../misc features/reroll');
 const { language } = require('../language/languages');
@@ -8,7 +10,6 @@ const { fortune, lotto } = require('../fortune/fortune');
 // npm module calls
 const fs = require('fs');
 const { fgColorHex } = require('terminal-text-color');
-
 
 let featBundle = () => {
     // return the language function.
@@ -23,7 +24,7 @@ let featBundle = () => {
 
 // beginner function. outputs beginner project suggestion, random language, lotto numbers and fortune.
 let  beginner = () => {
-    let y = beginner();
+    y = beginner();
     // iterate through ./projects/beginner.txt and output a random line.
     fs.readFile('./projects/beginner.txt', 'utf8', (err, data) => {
         // if there is error reading file output the error.
@@ -43,7 +44,7 @@ let  beginner = () => {
 
 // intermediate function. outputs intermediate project suggestion, random language, lotto numbers and fortune.
 let intermediate = () => {
-    let y = intermediate();
+    y = intermediate();
     // iterate through ./projects/intermediate.txt and output a random line.
     fs.readFile('./projects/intermediate.txt', 'utf8', (err, data) => {
         // if there is error reading file output the error.
@@ -63,7 +64,7 @@ let intermediate = () => {
 
 // advance function. outputs advance project suggestion, random language, lotto numbers and fortune.
 let advance = () => {
-    let y = advance();
+    y = advance();
     // iterate through ./projects/advance.txt and output a random line.
     fs.readFile('./projects/advance.txt', 'utf8', (err, data) => {
         // if there is error reading file output the error.
@@ -84,7 +85,7 @@ let advance = () => {
 
 // any function. outputs a random challenge from any of the previous difficulties.
 let any = () => {
-    let y = any();
+    y = any();
     let rng = Math.floor(Math.random() * 3);
     if (rng === 0) {
         beginner();

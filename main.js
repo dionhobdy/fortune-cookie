@@ -72,3 +72,4 @@ let menu = () => {
 
 // return menu function to initialize the application.
 menu();
+

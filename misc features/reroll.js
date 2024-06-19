@@ -14,11 +14,20 @@ let reRoll = () => {
         initial: 0
     });
 
-    if (reRoll.value === 0) { 
-        return y;
+    /*
+    if (reRoll.value = 0) {
+        menu();
     } else {
         return;
+    } */
+    switch (reRoll.value) {
+        case 0:
+            return y;
+            break;
+        default:
+            return;
     }
+
 };
 
 exports.reRoll = reRoll
