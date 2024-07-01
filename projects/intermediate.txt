@@ -19,6 +19,7 @@ Fitness Tracker
 Github Jobs App
 Google Drive Clone
 Hotel Management System
+HTTP Server
 Instagram Bot
 Interactive Movie Database App
 Login Authentication
@@ -36,10 +37,12 @@ Recreate Your Favorite Board Game
 React Photo Gallery
 Site Connectivity Checker
 Site Updated Notification System
+Smart Mirror
 Social Media Anlytics
 Sudoku Solver
 Telegram Bot
 Text-Based Adventure Game
+Travel Booking System
 Twitter Bot
 Twitter Sentiment Analyzer
 Typing Practice
