@@ -26,11 +26,12 @@ console.log(fgColorHex('DAA233'), `
 ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░        
  ░▒▓██████▓▒░ ░▒▓██████▓▒░ ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓████████▓▒░ 
 `);
-console.log(fgColorHex('E1E1DD'), 'Coding Project Randomizer');
+console.log(fgColorHex('E1E1DD'), 'Coding Project Randomizer By Dion Hobdy');
+console.log(fgColorHex('E1E1DD'), 'https://github.com/dionhobdy/fortune-cookie');
 console.log(' ');
 
 let x;
-let ifState0 = () => {
+let ifState = () => {
     if (x == 0) {
         beginner();
     } else if (x == 1) {
@@ -52,10 +53,12 @@ let menu = () => {
             message: 'select difficulty',
             // display function names and describe functions that are not named after difficulty setting.
             choices: [
-                { title:'Beginner' },
+                { title: 'Beginner' },
                 { title: 'Intermediate' },
                 { title: 'Advance' },
-                { title: 'Any', description: 'Chooses one challenge from any of the three difficulties'}
+                { title: 'Any', description: 'Chooses one challenge from any of the three difficulties'},
+                { title: 'Achievements', description: 'View your achievements'},
+                { title: 'Completed', description: 'View your completed projects'}
             ],
             // set the the cursor automatically to the first function. which is indexed at 0.
             initial: 0
@@ -64,7 +67,7 @@ let menu = () => {
         console.log(response);
         // create a obj that holds a key/value pair for each option.
         x = response.value;
-        ifState0();
+        ifState();
     })();
 }
 
@@ -72,4 +75,3 @@ let menu = () => {
 
 // return menu function to initialize the application.
 menu();
-

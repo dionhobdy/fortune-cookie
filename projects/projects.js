@@ -1,9 +1,7 @@
 'use strict';
 
-let y;
-
 // local module calls
-const { reRoll } = require('../misc features/reroll');
+const { complete } = require('../misc features/complete');
 const { language } = require('../language/languages');
 const { fortune, lotto } = require('../fortune/fortune');
 
@@ -19,12 +17,11 @@ let featBundle = () => {
     // return the lotto function.
     setTimeout(lotto, 100);
     // return the reRoll function.
-    setTimeout(reRoll, 125);
+    setTimeout(complete, 125);
 }
 
 // beginner function. outputs beginner project suggestion, random language, lotto numbers and fortune.
 let  beginner = () => {
-    y = beginner();
     // iterate through ./projects/beginner.txt and output a random line.
     fs.readFile('./projects/beginner.txt', 'utf8', (err, data) => {
         // if there is error reading file output the error.
@@ -44,7 +41,6 @@ let  beginner = () => {
 
 // intermediate function. outputs intermediate project suggestion, random language, lotto numbers and fortune.
 let intermediate = () => {
-    y = intermediate();
     // iterate through ./projects/intermediate.txt and output a random line.
     fs.readFile('./projects/intermediate.txt', 'utf8', (err, data) => {
         // if there is error reading file output the error.
@@ -64,7 +60,6 @@ let intermediate = () => {
 
 // advance function. outputs advance project suggestion, random language, lotto numbers and fortune.
 let advance = () => {
-    y = advance();
     // iterate through ./projects/advance.txt and output a random line.
     fs.readFile('./projects/advance.txt', 'utf8', (err, data) => {
         // if there is error reading file output the error.
@@ -85,7 +80,6 @@ let advance = () => {
 
 // any function. outputs a random challenge from any of the previous difficulties.
 let any = () => {
-    y = any();
     let rng = Math.floor(Math.random() * 3);
     if (rng === 0) {
         beginner();
@@ -96,8 +90,18 @@ let any = () => {
     }
 }
 
+let achievements = () => {
+
+}
+
+let completed = () => {
+    
+}
+
 // export all functions for main.js to call
 exports.beginner = beginner
 exports.intermediate = intermediate
 exports.advance = advance
 exports.any = any
+exports.achievements = achievements
+exports.completed = completed
