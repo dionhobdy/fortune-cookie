@@ -38,8 +38,12 @@ let ifState = () => {
         intermediate();
     } else if (x == 2) {
         advance();
-    } else {
+    } else if (x == 3) {
         any();
+    } else if (x == 4) {
+        achievements();
+    } else {
+        completed();
     }
 }
 
@@ -50,7 +54,7 @@ let menu = () => {
             // set prompt type to select, which enables the user to select options.
             type: 'select',
             name: 'value',
-            message: 'select difficulty',
+            message: 'select option',
             // display function names and describe functions that are not named after difficulty setting.
             choices: [
                 { title: 'Beginner' },

@@ -1,12 +1,18 @@
 'use strict';
 
+const fs = require('fs');
 const prompts = require('prompts');
 
 let x;
+let data;
+let rawData = fs.readFileSync(data);
+let parsedData = JSON.parse(rawData);
+let pushedData;
 
 let ifState = () => {
     if (x == 0) {
-        console.log('Yeet!');
+        console.log('Kudos! Project added to completed projects data!');
+        parsedData.push(pushedData);
     } else {
         return;
     }
