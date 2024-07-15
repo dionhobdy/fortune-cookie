@@ -1,7 +1,7 @@
 'use strict';
 
 // local module calls
-const { complete } = require('../misc features/complete');
+// const { complete } = require('../misc features/complete');
 const { language } = require('../language/languages');
 const { fortune, lotto } = require('../fortune/fortune');
 
@@ -17,7 +17,7 @@ let featBundle = () => {
     // return the lotto function.
     setTimeout(lotto, 100);
     // return the reRoll function.
-    setTimeout(complete, 125);
+//    setTimeout(complete, 125);
 }
 
 // beginner function. outputs beginner project suggestion, random language, lotto numbers and fortune.
