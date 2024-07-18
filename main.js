@@ -1,11 +1,11 @@
 'use strict';
 
 // local modules calls
-const { beginner, intermediate, advance, any } = require('./projects/projects');
+const { beginner, intermediate, advance, any } = require('./Application Files/projects/projects.js');
 
 // npm module calls
-const prompts = require('prompts'); 
-const { fgColorHex } = require('terminal-text-color'); // node package calls
+const prompts = require('./Application Files/node_modules/prompts'); 
+const { fgColorHex } = require('./Application Files/node_modules/terminal-text-color'); // node package calls
 
 // print application title and subtitle
     console.log(fgColorHex('DAA233'), `
@@ -38,12 +38,8 @@ let ifState = () => {
         intermediate();
     } else if (x == 2) {
         advance();
-    } else if (x == 3) {
-        any();
-    } else if (x == 4) {
-        achievements();
     } else {
-        completed();
+        any();
     }
 }
 
@@ -61,8 +57,6 @@ let menu = () => {
                 { title: 'Intermediate' },
                 { title: 'Advance' },
                 { title: 'Any', description: 'Chooses one challenge from any of the three difficulties'},
-                { title: 'Achievements', description: 'View your achievements'},
-                { title: 'Completed', description: 'View your completed projects'}
             ],
             // set the the cursor automatically to the first function. which is indexed at 0.
             initial: 0
