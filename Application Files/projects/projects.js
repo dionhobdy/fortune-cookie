@@ -1,8 +1,8 @@
 'use strict';
 
 // local module calls
-const { language } = require('../Application Files/language/languages');
-const { fortune, lotto } = require('/Application Files/fortune/fortune');
+const { language } = require('../language/languages');
+const { fortune, lotto } = require('../fortune/fortune');
 
 // npm module calls
 const fs = require('fs');
@@ -15,14 +15,12 @@ let featBundle = () => {
     setTimeout(fortune, 50);
     // return the lotto function.
     setTimeout(lotto, 100);
-    // return the reRoll function.
-   //setTimeout(complete, 125);
 }
 
 // beginner function. outputs beginner project suggestion, random language, lotto numbers and fortune.
 let  beginner = () => {
     // iterate through ./projects/beginner.txt and output a random line.
-    fs.readFile('./Application Files/projects/beginner.txt', 'utf8', (err, data) => {
+    fs.readFile('./projects/beginner.txt', 'utf8', (err, data) => {
         // if there is error reading file output the error.
         if (err) {
             console.error('Error reading file: ', err);
@@ -41,7 +39,7 @@ let  beginner = () => {
 // intermediate function. outputs intermediate project suggestion, random language, lotto numbers and fortune.
 let intermediate = () => {
     // iterate through ./projects/intermediate.txt and output a random line.
-    fs.readFile('intermediate.txt', 'utf8', (err, data) => {
+    fs.readFile('./projects/intermediate.txt', 'utf8', (err, data) => {
         // if there is error reading file output the error.
         if (err) {
             console.error('Error reading file: ', err);
@@ -60,7 +58,7 @@ let intermediate = () => {
 // advance function. outputs advance project suggestion, random language, lotto numbers and fortune.
 let advance = () => {
     // iterate through ./projects/advance.txt and output a random line.
-    fs.readFile('advance.txt', 'utf8', (err, data) => {
+    fs.readFile('./projects/advance.txt', 'utf8', (err, data) => {
         // if there is error reading file output the error.
         if (err) {
             console.error('Error reading file: ', err);
@@ -89,18 +87,8 @@ let any = () => {
     }
 }
 
-let achievements = () => {
-
-}
-
-let completed = () => {
-    
-}
-
 // export all functions for main.js to call
 exports.beginner = beginner
 exports.intermediate = intermediate
 exports.advance = advance
 exports.any = any
-exports.achievements = achievements
-exports.completed = completed
