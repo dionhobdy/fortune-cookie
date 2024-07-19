@@ -30,7 +30,7 @@ As discussed in the concept, the features include 200+ coding projects. With tha
 
 ## S C R E E N S H O T S
 
-![FORTUNE COOKIE main menu]([[https://i.imgur.com/WnzERNI.png](https://i.imgur.com/WnzERNI.png)])
+![FORTUNE COOKIE main menu](https://i.imgur.com/WnzERNI.png)
 
-![FORTUNE COOKIE main menu]([[https://i.imgur.com/U3sBXER.png](https://i.imgur.com/U3sBXER.png)])
+![FORTUNE COOKIE any display](https://i.imgur.com/U3sBXER.png)
 
