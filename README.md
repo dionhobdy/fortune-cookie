@@ -28,6 +28,8 @@ The idea behind Fortune Cookie started small. The goal was to simulate a fortune
 
 As discussed in the concept, the features include 200+ coding projects. With that is over 300 fortunes to help lift your spirits and a lotto number generator. For a extra challenge, try implementing the languages and frameworks that the application suggests!
 
-## S C R E E N S H O T 
+## S C R E E N S H O T S
 
-![FORTUNE COOKIE main menu](https://i.imgur.com/zaXjj67.png)
+![FORTUNE COOKIE main menu]([https://i.imgur.com/zaXjj67.png])
+
+![FORTUNE COOKIE any function]([https://i.imgur.com/zaXjj67.png])
