@@ -1,3 +1,0 @@
-U S A G E I N S T R U C T I O N S
-
-In order to use Fortune Cookie you will have to open your CMD prompt in the Application Files folder and run npm i. This will install the node modules needed for the application. After doing so, you then can either run node main.js in the Application Files folder OR go back to the main folder and run the Fortune Cookie.bat batch file.
