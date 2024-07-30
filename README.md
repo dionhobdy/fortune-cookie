@@ -38,3 +38,4 @@ In order to use Fortune Cookie you will have to open your CMD prompt in the Appl
 
 ![FORTUNE COOKIE any display](https://i.imgur.com/U3sBXER.png)
 
+![FORTUNE COOKIE gif](https://d1vfvvb6hdaxfe.cloudfront.net/l5hqyj%2Fpreview%2F59718041%2Fmain_large.gif?response-content-disposition=inline%3Bfilename%3D%22main_large.gif%22%3B&response-content-type=image%2Fgif&Expires=1722308637&Signature=Emehz62pq8HYTEb~4rANcwkUbKwzKXG1TXl5DDOm-gJ7gwmjvYzLlx1gX2PBXl0QAIpRQj4xO-mGo6G1gi9ITo09hkA1TkAU-GvgQ~x1jB9tJuit8FI1z-KXTqQkOi4PIZ5yAOzdsHq4YalspFes1N7iZmjBCDaWmT-Rb-0jMTytCvC7IqING5LY8-myIOzvS0gfk3FTpeF4dPheBuJuIQqmC~bQNwXdY0ygiyrwQNptM28U3VDDc3D4YLYjrJ~AByA5vxtEtaltFgw9O-SYha6HlH5YnoNjkl9-FQ0Ylk5-byFfkRSnkovdI5mv37FWpGQOSrIX6C7ECZV~1HMiiA__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ)
